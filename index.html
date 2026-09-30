@@ -17,9 +17,20 @@
     }
 
     .intro {
-      padding: 20px 40px;
-      text-align: left;
-    }
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.profile-img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 40%;
+  border: 3px solid black;
+}
 
     .intro h1 {
       font-size: 2.5rem;      /* size of the heading */
@@ -48,17 +59,21 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
+       <li class="nav-item">
+  <a class="nav-link" href="resume/Resume.pdf" target="_blank">Resume</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="intro">
+<div class="intro">
+  <div class="intro-text">
     <h1 style="font-family:'Times New Roman', Times, serif;">Armando Juarez Ramirez</h1>
-    <p style="font-family:'Times New Roman', Times, serif;">I'm a current computer science student and I'm focused on coding on HTML, being efficient, helping my teammates, and beign a reliable person.</p>
+    <p style="font-family:'Times New Roman', Times, serif;">I'm a current computer science student and I'm focused on coding on HTML, being efficient, helping my teammates, and being a reliable person.</p>
   </div>
+
+  <img src="images/armando.jpg" alt="Armando Juarez Ramirez" class="profile-img">
+</div>
 
 <style>
   body{
@@ -97,6 +112,15 @@
   margin: 30px;
 }
 </style>
+
+<!--- New text box -->
+  <div>
+    <p> Contact: armandojr36@icloud.com </p>
+    <p> (970) 815 9838</p>
+  </div>
+</div>
+
+
 
 </body>
 </html>
